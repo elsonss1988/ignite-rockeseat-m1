@@ -1,0 +1,11 @@
+{
+  "name": "m1_explorer_react_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/elsonss1988/ignite-rockeseat-m1.git",
+  "author": "Elson Santos <elsonss1988@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
