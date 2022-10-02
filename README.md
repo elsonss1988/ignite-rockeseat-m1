@@ -39,3 +39,6 @@ yarn add webpack dev-server -D
 
 ### Rodar o modo hot reload
 yarn webpack serve  
+
+### Criando o env para definir prod e dev
+* yarn add cross-env -D

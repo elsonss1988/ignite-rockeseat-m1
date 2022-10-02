@@ -1,8 +1,12 @@
 const path = require('path')
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 
+const isDevelopment = process.env.NODE_ENV != 'production';
+
 module.exports = {
-    mode:'development',
+
+    mode: isDevelopment ? 'development' : 'production',
+    devtool: isDevelopment ? 'eval-source-map' : 'source-map',
     entry: path.resolve(__dirname,'src','index.jsx'),
     output:{
         path: path.resolve(__dirname, 'dist'),
@@ -14,7 +18,7 @@ module.exports = {
     },
     //hotreload
     devServer:{
-        contentBase: path.resolve(__dirname, 'public')
+        static: path.resolve(__dirname, 'public')
     },
     // behavour about each file
 
