@@ -30,5 +30,12 @@ com o babel loader (joga para a conversão)
 
 yarn webpack
 
-### plugin webpack
+### plugin webpack 
+ Usando para remover arvore ao usar o bundle
 * yarn add html-webpack-plugin -D
+  
+### Hot reload
+yarn add webpack dev-server -D
+
+### Rodar o modo hot reload
+yarn webpack serve  

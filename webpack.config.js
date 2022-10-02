@@ -12,6 +12,10 @@ module.exports = {
     resolve:{
         extensions: ['.js','.jsx'],
     },
+    //hotreload
+    devServer:{
+        contentBase: path.resolve(__dirname, 'public')
+    },
     // behavour about each file
 
     plugins:[
