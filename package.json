@@ -6,7 +6,13 @@
   "author": "Elson Santos <elsonss1988@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@babel/preset-react": "^7.18.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3"
   }
 }
