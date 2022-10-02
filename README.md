@@ -29,3 +29,6 @@ com o babel loader (joga para a conversão)
 ### run wepback
 
 yarn webpack
+
+### plugin webpack
+* yarn add html-webpack-plugin -D
