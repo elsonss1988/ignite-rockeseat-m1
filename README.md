@@ -42,3 +42,6 @@ yarn webpack serve
 
 ### Criando o env para definir prod e dev
 * yarn add cross-env -D
+* 
+* ###
+* yarn add style-loader css-loader -D     
