@@ -1,5 +1,6 @@
 import React from 'react'
 import RepositoryList from './components/RepositoryList'
+import Counter from './components/Counter';
 // throw new Error('fail connection')
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
         <>
             <p>Hello World</p>
             <RepositoryList/>
+            <Counter/>
         </>
     )
     

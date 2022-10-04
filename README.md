@@ -48,3 +48,10 @@ yarn webpack serve
 
 ### Usando SASS
 yarn add sass loader -D  yarn add  node-sass -D  
+
+### Usado createRoot
+
+const container = document.querySelector('#root')
+const root = createRoot('container').
+root.render(<App/>)
+
