@@ -35,7 +35,7 @@ yarn webpack
 * yarn add html-webpack-plugin -D
   
 ### Hot reload
-yarn add webpack dev-server -D
+* yarn add webpack dev-server -D
 
 ### Rodar o modo hot reload
 yarn webpack serve  
@@ -55,3 +55,6 @@ const container = document.querySelector('#root')
 const root = createRoot('container').
 root.render(<App/>)
 
+
+### Fast Refresh
+yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh

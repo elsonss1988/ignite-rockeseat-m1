@@ -10,9 +10,6 @@ import React from 'react';
 
     }
 
- function inc(){
-    console.log('Hello')
- }
     return(
         <>
         <h2>{counter}</h2>
